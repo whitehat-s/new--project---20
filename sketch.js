@@ -6,9 +6,9 @@ function setup() {
   speed=random(55,90)
   weight=random(400,1500)
   car=createSprite(50, 50, 30, 30);
-  car.shapeColor = ("white")
+  car.shapeColor = "white"
   wall=createSprite(1200, 50, 30, height/2)
-  wall.shapeColor =(80, 80, 80)
+  wall.shapeColor =color(80, 80, 80)
 }
 
 function draw() {
